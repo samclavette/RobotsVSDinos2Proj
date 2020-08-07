@@ -8,5 +8,6 @@ namespace RobotsVSDinos2
 {
     class Weapon
     {
+
     }
 }
