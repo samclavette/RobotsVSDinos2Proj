@@ -19,7 +19,7 @@ namespace RobotsVSDinos2
             this.name = name;
             this.health = health;
             this.powerLevel = powerLevel;
-            attackPower = weapon.
+            attackPower = weapon.attackPower;
         }
         
     }
