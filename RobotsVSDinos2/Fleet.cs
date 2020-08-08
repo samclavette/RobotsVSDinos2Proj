@@ -10,8 +10,9 @@ namespace RobotsVSDinos2
     {
         public Fleet()
         {
-            Robot robotOne = new Robot("Randy", 100, 50, 50);
-            Robot robotTwo = new Robot("Randall", 150, 75, 75);
+            Robot robotOne = new Robot("Sonny", 100, 50, 50);
+            Robot robotTwo = new Robot("Ultron", 150, 75, 75);
+            Robot robotTHree = new Robot("Wall-E", 75, 40, 40);
         }
     }
 }

@@ -18,6 +18,7 @@ namespace RobotsVSDinos2
             Weapon weaponOne = new Weapon("sword", 75);
             Weapon weaponTwo = new Weapon("hammer", 50);
             Weapon weaponThree = new Weapon("gatling gun", 100);
+            Weapon weaponFour = new Weapon("machete", 50);
         }
     }
 }

@@ -8,5 +8,8 @@ namespace RobotsVSDinos2
 {
     class Herd
     {
+        Dinosaur dinoOne = new Dinosaur("Raptor", 75, 40, 40);
+        Dinosaur dinoTwo = new Dinosaur("T-Rex", 150, 75, 75);
+        Dinosaur dinoThree = new Dinosaur("Stegosaurus", 100, 50, 50);
     }
 }
