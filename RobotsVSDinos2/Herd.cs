@@ -8,6 +8,9 @@ namespace RobotsVSDinos2
 {
     class Herd
     {
+        Dinosaur dinoOne;
+        Dinosaur dinoTwo;
+        Dinosaur dinoThree;
         public List<Dinosaur> dinoList;
 
         public Herd()
@@ -16,6 +19,13 @@ namespace RobotsVSDinos2
             Dinosaur dinoTwo = new Dinosaur("T-Rex", 150, 75, 75);
             Dinosaur dinoThree = new Dinosaur("Stegosaurus", 100, 50, 50);
             dinoList = new List<Dinosaur>();
+        }
+
+        public void AddDinosToList()
+        {
+            dinoList.Add(dinoOne);
+            dinoList.Add(dinoTwo);
+            dinoList.Add(dinoThree);
         }
 
     }
