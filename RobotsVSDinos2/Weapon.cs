@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace RobotsVSDinos2
 {
-    class Weapon
+    public class Weapon
     {
         public string type;
         public int attackPower;
+        public List<Weapon> weaponList;
 
         public Weapon(string type, int attackPower)
         {
@@ -19,6 +20,7 @@ namespace RobotsVSDinos2
             Weapon weaponTwo = new Weapon("hammer", 50);
             Weapon weaponThree = new Weapon("gatling gun", 100);
             Weapon weaponFour = new Weapon("machete", 50);
+            weaponList = new List<Weapon>();
         }
     }
 }

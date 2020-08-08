@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RobotsVSDinos2
 {
-    class Robot
+    public class Robot
     {
         public string name;
         public int health;
