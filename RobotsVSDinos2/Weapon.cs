@@ -15,6 +15,9 @@ namespace RobotsVSDinos2
         {
             this.type = type;
             this.attackPower = attackPower;
+            Weapon weaponOne = new Weapon("sword", 75);
+            Weapon weaponTwo = new Weapon("hammer", 50);
+            Weapon weaponThree = new Weapon("gatling gun", 100);
         }
     }
 }
