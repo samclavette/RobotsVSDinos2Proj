@@ -12,6 +12,7 @@ namespace RobotsVSDinos2
         public int health;
         public int energyLevel;
         public int attackPower;
+        public 
 
         public Dinosaur(string type, int health, int energyLevel, int attackPower)
         {
@@ -24,6 +25,7 @@ namespace RobotsVSDinos2
         public void DinoAttack(Robot robot)
         {
             robot.health -= attackPower;
+            energyLevel -= 10;
         }
     }
 }

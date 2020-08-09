@@ -27,6 +27,7 @@ namespace RobotsVSDinos2
         public void RobotAttack(Dinosaur dino)
         {
             dino.health -= attackPower;
+            powerLevel -= 10;            
         }
 
         public Weapon ChooseWeapon()
