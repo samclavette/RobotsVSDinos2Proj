@@ -20,6 +20,7 @@ namespace RobotsVSDinos2
             Dinosaur dinoTwo = new Dinosaur("T-Rex", 150, 75, 75);
             Dinosaur dinoThree = new Dinosaur("Stegosaurus", 100, 50, 50);
             dinoList = new List<Dinosaur>();
+            AddDinosToList();
         }
 
         public void AddDinosToList()

@@ -19,6 +19,7 @@ namespace RobotsVSDinos2
             Robot robotTwo = new Robot("Ultron", 150, 75);
             Robot robotThree = new Robot("Wall-E", 75, 40);
             robotList = new List<Robot>();
+            AddRobotsToList();
         }
 
         public void AddRobotsToList()

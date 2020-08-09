@@ -10,6 +10,8 @@ namespace RobotsVSDinos2
     {
         static void Main(string[] args)
         {
+            Battlefield battlefield = new Battlefield();
+            battlefield.Battle();
         }
     }
 }
