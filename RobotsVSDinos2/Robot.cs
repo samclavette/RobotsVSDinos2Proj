@@ -21,6 +21,10 @@ namespace RobotsVSDinos2
             this.powerLevel = powerLevel;
             attackPower = weapon.attackPower;
         }
-        
+
+        public void RobotAttack(Dinosaur dino)
+        {
+            dino.health -= attackPower;
+        }
     }
 }

@@ -20,5 +20,10 @@ namespace RobotsVSDinos2
             this.energyLevel = energyLevel;
             this.attackPower = attackPower;
         }
+
+        public void DinoAttack(Robot robot)
+        {
+            robot.health -= attackPower;
+        }
     }
 }
