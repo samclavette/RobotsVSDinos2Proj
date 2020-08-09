@@ -8,10 +8,11 @@ namespace RobotsVSDinos2
 {
     public class Fleet
     {
-        Robot robotOne;
-        Robot robotTwo;
-        Robot robotThree;
+        public Robot robotOne;
+        public Robot robotTwo;
+        public Robot robotThree;
         public List<Robot> robotList;
+        Random rand;
         public Fleet()
         {
             Robot robotOne = new Robot("Sonny", 100, 50);
@@ -25,6 +26,13 @@ namespace RobotsVSDinos2
             robotList.Add(robotOne);
             robotList.Add(robotTwo);
             robotList.Add(robotThree);
+        }
+
+        public Robot ChooseRandomRobot()
+        {
+            int index = rand.Next(robotList.Count);
+            Robot robotChosen = robotList[index];
+            return robotChosen;
         }
     }
 }

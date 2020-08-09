@@ -12,7 +12,6 @@ namespace RobotsVSDinos2
         public int health;
         public int energyLevel;
         public int attackPower;
-        public 
 
         public Dinosaur(string type, int health, int energyLevel, int attackPower)
         {

@@ -16,5 +16,15 @@ namespace RobotsVSDinos2
             dinoHerd = new Herd();
             robotFleet = new Fleet();
         }
+
+        public void RobotAttackDino()
+        {
+
+        }
+
+        public void DinoAttackRobot()
+        {
+
+        }
     }
 }

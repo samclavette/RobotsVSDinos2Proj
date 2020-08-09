@@ -8,10 +8,11 @@ namespace RobotsVSDinos2
 {
     class Herd
     {
-        Dinosaur dinoOne;
-        Dinosaur dinoTwo;
-        Dinosaur dinoThree;
+        public Dinosaur dinoOne;
+        public Dinosaur dinoTwo;
+        public Dinosaur dinoThree;
         public List<Dinosaur> dinoList;
+        Random rand;
 
         public Herd()
         {
@@ -26,6 +27,13 @@ namespace RobotsVSDinos2
             dinoList.Add(dinoOne);
             dinoList.Add(dinoTwo);
             dinoList.Add(dinoThree);
+        }
+
+        public Dinosaur ChooseRandomDino()
+        {
+            int index = rand.Next(dinoList.Count);
+            Dinosaur dinoChosen = dinoList[index];
+            return dinoChosen;
         }
 
     }
