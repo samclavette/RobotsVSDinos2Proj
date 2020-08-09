@@ -13,18 +13,26 @@ namespace RobotsVSDinos2
         public int powerLevel;
         Weapon weapon;
         public int attackPower;
+        Random rand;
 
-        public Robot(string name, int health, int powerLevel, Weapon weapon)
+        public Robot(string name, int health, int powerLevel)
         {
             this.name = name;
             this.health = health;
             this.powerLevel = powerLevel;
             attackPower = weapon.attackPower;
+            weapon = ChooseWeapon();
         }
 
         public void RobotAttack(Dinosaur dino)
         {
             dino.health -= attackPower;
+        }
+
+        public Weapon ChooseWeapon()
+        {
+            int index = rand.Next(weapon.weaponList.Count);
+            return weapon.weaponList[index];
         }
     }
 }

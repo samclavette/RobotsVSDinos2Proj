@@ -14,9 +14,9 @@ namespace RobotsVSDinos2
         public List<Robot> robotList;
         public Fleet()
         {
-            Robot robotOne = new Robot("Sonny", 100, 50, 50);
-            Robot robotTwo = new Robot("Ultron", 150, 75, 75);
-            Robot robotThree = new Robot("Wall-E", 75, 40, 40);
+            Robot robotOne = new Robot("Sonny", 100, 50);
+            Robot robotTwo = new Robot("Ultron", 150, 75);
+            Robot robotThree = new Robot("Wall-E", 75, 40);
             robotList = new List<Robot>();
         }
 
