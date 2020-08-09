@@ -19,12 +19,16 @@ namespace RobotsVSDinos2
 
         public void RobotAttackDino()
         {
-
+            Robot attackingRobot = robotFleet.ChooseRandomRobot();
+            Dinosaur defendingDino = dinoHerd.ChooseRandomDino();
+            attackingRobot.RobotAttack(defendingDino);
         }
 
         public void DinoAttackRobot()
         {
-
+            Dinosaur attackingDino = dinoHerd.ChooseRandomDino();
+            Robot defendingRobot = robotFleet.ChooseRandomRobot();
+            attackingDino.DinoAttack(defendingRobot);
         }
     }
 }
